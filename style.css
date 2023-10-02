@@ -11,9 +11,36 @@
     grid-template-rows: 2fr 2fr 1fr;
     gap: 5px;
   }
-  div {
-    background-color: grey;
-  }
+ 
   #logo {
     grid-row: span 2;
+    display: flex;
+    background-color: white;
+  }
+  .selfie{
+    display: block;
+    height: 50%;
+    border-radius: 50%;
+    border: 5px solid green;
+    margin: auto;
+    
+  }
+  #botLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  #callBtn{
+    background-color: #66d189;
+  }
+  #chatBtn{
+    background-color: #5abd7c;
+  } 
+  .topRight{
+    padding: 50px;
+    background-color: #abdbe3;
+  }
+  #descrip {
+    font-size: 20px;
+
   }
