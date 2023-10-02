@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    gap: 5px;
+  }
+  div {
+    background-color: grey;
+  }
+  #logo {
+    grid-row: span 2;
+  }
